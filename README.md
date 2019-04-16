@@ -37,7 +37,6 @@ Every task:
 - Follow [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
 - Make sure `docker` is online (you see the `docker` icon in tray on Windows or in toolbar on Mac)
 - Make sure the layout is correct. Run tests (`npm run css:test`). Your `http-server` which runs via `npm run start` must be online for tests.
-- If you don't see `reference` screenshots run `npm run css:reference` to update it.
 - Save the solution <br/>
    ```
    git add .
@@ -55,5 +54,4 @@ Every task:
 - `npm run start` - start `http-server` on `http://localhost:8080`
 - `npm run lint` - run linters (`CSS`, `HTML`, `JS`)
 - `npm run css:test` - run visual regression tests. `http-server` must be online for tests.
-- `npm run css:reference` - update reference screenshots
 - `npm run deploy` - deploy layout and test-report to `gh-pages`
