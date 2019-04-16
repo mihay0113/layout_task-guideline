@@ -36,6 +36,10 @@ Every task:
 - Follow [the simplified JS styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
 - Follow [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
 - Make sure `docker` is online (you see the `docker` icon in tray on Windows or in toolbar on Mac)
+- Make sure you are logged in in `docker`. 
+    - run `docker login`
+    - enter your credentials (`docker-id` and `password`) if needed
+    - you will see the message `Login Succeeded`
 - Make sure the layout is correct. Run tests (`npm run css:test`). Your `http-server` which runs via `npm run start` must be online for tests.
 - Save the solution <br/>
    ```
