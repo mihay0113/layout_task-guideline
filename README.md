@@ -40,7 +40,7 @@ Every task:
     - run `docker login`
     - enter your credentials (`docker-id` and `password`) if needed
     - you will see the message `Login Succeeded`
-- Make sure the layout is correct. Run tests (`npm run css:test`). Your `http-server` which runs via `npm run start` must be online for tests.
+- Make sure the layout is correct. Open new command line window and run tests (`npm run css:test`). Your `http-server` which runs via `npm run start` must be online for tests.
 - Save the solution <br/>
    ```
    git add .
