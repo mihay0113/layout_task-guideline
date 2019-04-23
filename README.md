@@ -19,7 +19,8 @@ Every task:
 
 - [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 - If you use _linux_ please make sure you adjusted writing permissions to let 
-scripts work without `sudo`.
+scripts work without `sudo`. Correct permissions means you don't see errors like
+`permission denied` after running commands in CLI.
 
 ## Workflow
 
