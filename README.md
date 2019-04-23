@@ -68,7 +68,7 @@ After running this command you will be able to find reference screenshots in
     this will be a link to the test report which was created after running
      `npm run css:test` command and deployed to `gh-pages` via `npm run deploy` command
 - Create `Pull Request` from forked repo (`<branch_name>`) to original repo (`master`)
-- Add links to created `PR`, `Demo` and `Test report` to your table and send them you your coach or TA
+- Add links to created `PR`. `PR` must include updated `readme.md` with `Demo` and `Test report`
 
 ## Scripts
 - `npm run start` - start `http-server` on `http://localhost:8080`
