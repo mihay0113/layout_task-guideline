@@ -21,6 +21,7 @@ Every task:
 - If you use _linux_ please make sure you adjusted writing permissions to let 
 scripts work without `sudo`. Correct permissions means you don't see errors like
 `permission denied` after running commands in CLI.
+- [Working with figma](figma.md)
 
 ## Workflow
 
