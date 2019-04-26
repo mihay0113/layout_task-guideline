@@ -1,6 +1,6 @@
 # Guideline how to implement solution for Layout tasks
 
-[Video guide](#) _in progress_
+[Video guide](https://youtu.be/-Elt79BhPiM )
 
 Every task:
 - Includes `eslint`
