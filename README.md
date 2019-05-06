@@ -1,6 +1,7 @@
 # Guideline how to implement solution for Layout tasks
 
-[Video guide](https://youtu.be/-Elt79BhPiM )
+ - [Video guide](https://youtu.be/-Elt79BhPiM)
+ - [Pixel perfect extension](https://www.youtube.com/watch?v=zqRko57AurU&list=PL7FuXFaDeEX15gwtyUNTuHHori210Nqol)
 
 Every task:
 - Includes `eslint`
@@ -49,6 +50,7 @@ After running this command you will be able to find reference screenshots in
 - Make sure the code is clean. Run linters (`npm run lint`)
 - Follow [the simplified JS styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
 - Follow [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
+- Use [pixel perfect extension](https://www.youtube.com/watch?v=zqRko57AurU&list=PL7FuXFaDeEX15gwtyUNTuHHori210Nqol) to check if your markup looks the same as the reference.
 - Make sure the layout is correct. Open new command line window and run tests 
     `npm run css:test`. Your `http-server` which runs via `npm run start` must be 
     online for tests.
