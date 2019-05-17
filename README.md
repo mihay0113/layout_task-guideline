@@ -74,7 +74,7 @@ After running this command you will be able to find reference screenshots in
 - Add links to created `PR`. `PR` must include updated `readme.md` with `Demo` and `Test report`
 
 ## Scripts
-- `npm run start` - start `http-server` on `http://localhost:8080`
+- `npm run start` - start `http-server` on `http://localhost:8080` or `http://localhost:8080/index.html`
 - `npm run lint` - run linters (`CSS`, `HTML`, `JS`)
 - `npm run css:reference` - get reference screenshots
 - `npm run css:test` - run visual regression tests. `http-server` must be online for tests.
