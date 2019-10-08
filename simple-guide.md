@@ -4,7 +4,8 @@
 3. Run `npm start`. (Open one more terminal window for the next steps)
 4. Write you code in `index.html`, `style.css` inside `src` folder
 5. Run `npm test` to check if you solved the task. (Fix all errors if any)
-    - Run `npm run lint` if you don't see the diff in browser and fix code style errors. 
+    - Run `npm run lint` if you don't see the diff in browser and fix code style errors.
+    - Run `npm start` if reference is empty in browser diff.
 6. Run `npm run deploy` to share your solution
 7. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
 8. Copy `DEMO LINK` and `TEST REPORT LINK` to the PR description
