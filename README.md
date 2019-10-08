@@ -24,3 +24,15 @@
 > If you use _linux_ please make sure you adjusted writing permissions to let 
 scripts work without `sudo`. Correct permissions means you don't see errors like
 `permission denied` after running commands in CLI.
+
+## NPM commands
+- `npm install` installs the project dependencies and runs `postinstall`
+  - `git checkout -b develop` is executed under the hood to create a `develop` branch and switch on it.
+  - `npm run css:reference` create reference files for pixel perfect and tests 
+- `npm start` runs the server required for development and tests
+- `npm test` runs linter and tests
+  - `npm run lint` runs linter (code style check)
+  - `npm run css:test` runs linter (code style check)
+- `npm run deploy` save the changes, push them to github and published to `gh-pages`
+  - `git add .`, `git commit -m 'solution'` and `git push origin develop` are executed under the hood
+  - `npm run publish` publishes the page and test report to `gh-pages` 
