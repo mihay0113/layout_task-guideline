@@ -32,7 +32,7 @@ scripts work without `sudo`. Correct permissions means you don't see errors like
 - `npm start` runs the server required for development and tests
 - `npm test` runs linter and tests
   - `npm run lint` runs linter (code style check)
-  - `npm run css:test` runs linter (code style check)
+  - `npm run css:test` runs pixel perfect tests
 - `npm run deploy` save the changes, push them to github and published to `gh-pages`
   - `git add .`, `git commit -m 'solution'` and `git push origin develop` are executed under the hood
   - `npm run publish` publishes the page and test report to `gh-pages` 
