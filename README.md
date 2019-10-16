@@ -1,24 +1,35 @@
 # Guideline how to implement solution for Layout tasks 
-1. Fork the repo and clone the forked one.
-2. Run `npm install` (or just `npm i`)
-3. Run `npm start`. (Open one more terminal window for the next steps)
-4. Write you code in `index.html`, `style.css` inside `src` folder
-5. Run `npm test` to check if you solved the task. (Fix all errors if any)
+
+## Video guides
+- [How to solve HTML tasks](https://youtu.be/haCRZ3gNjOs)
+- [How to use pixel perfect extension](https://youtu.be/zqRko57AurU)
+
+## Instructions
+1. **Fork** the repo.
+2. **Clone** the forked one. (The project link should have your name but not `mate-academy`)
+3. Run `npm install` (or just `npm i`)
+    - if it fails rename `postinstall` command in `package.json` to `1postinstall` and run its parts separately.
+4. Run `npm start`.
+5. Open one more terminal window for the next steps
+6. Replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
+7. Write you code in `index.html`, `style.css` inside `src` folder
+8. Run `npm test` to check if you solved the task. (Fix all errors if any)
     - Run `npm run lint` if you don't see the diff in browser and fix code style errors.
     - Run `npm start` if reference is empty in browser diff.
-6. Run `npm run deploy` to share your solution
-7. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
-8. Copy `DEMO LINK` and `TEST REPORT LINK` to the PR description
+9. Run `npm run deploy` to share your solution
+    - this command saves changes and push them to github
+    - if you don't have any changes you can run
+        - `git push origin develop` - to send you code for PR
+        - `npm run publish` - to publish you solution and test results on gh-pages
+10. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
+11. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description
 
-> To update you PR repeat steps 5 and 6
+> To update you PR repeat steps 7-9
 
 ## Useful links
-- [Working with figma](figma.md)
-- [Pixel perfect extension](https://www.youtube.com/watch?v=zqRko57AurU&list=PL7FuXFaDeEX15gwtyUNTuHHori210Nqol)
 - [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
+- [Working with figma](./figma.md)
 - [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
-- `NodeJS`, `npm` [download](https://nodejs.org/en/) or [read installation guide](https://nodejs.org/en/download/package-manager/)
-- `git` [download](https://git-scm.com/downloads) or [read installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Linux users
 > If you use _linux_ please make sure you adjusted writing permissions to let 
