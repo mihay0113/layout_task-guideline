@@ -4,6 +4,11 @@
 - [How to solve HTML tasks](https://youtu.be/haCRZ3gNjOs)
 - [How to use pixel perfect extension](https://youtu.be/zqRko57AurU)
 
+## Useful links
+- [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
+- [Working with figma](./figma.md)
+- [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
+
 ## Instructions
 1. **Fork** the repo.
 2. **Clone** the forked one. (The project link should have your name but not `mate-academy`)
@@ -25,11 +30,6 @@
 11. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description
 
 > To update you PR repeat steps 7-9
-
-## Useful links
-- [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
-- [Working with figma](./figma.md)
-- [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 
 ## Linux users
 > If you use _linux_ please make sure you adjusted writing permissions to let 
