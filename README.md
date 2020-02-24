@@ -11,25 +11,26 @@
 
 ## Instructions
 1. **Fork** the repo.
-1. **Clone** the forked one. (The project link should have your name but not `mate-academy`)
-1. Run `npm install` (or just `npm i`)
-1. Create develop branch `git checkout -b develop`
-1. Run `npm start`.
-1. Open one more terminal window for the next steps
-1. Replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
-1. Write you code in `index.html`, `style.css` inside `src` folder
-1. Run `npm test` to check if you solved the task. (Fix all errors if any)
+2. **Clone** the forked one. (The project link should have your name but not `mate-academy`).
+3. Go to create folder by running `cd your-project-name`.
+4. Run `npm install` (or just `npm i`).
+5. Run `npm start` to check if it works.
+6. Open one more terminal window for the next steps
+7. Create develop branch `git checkout -b develop`
+8. Replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
+9. Write you code in `index.html`, `style.css` inside `src` folder
+10. Run `npm test` to check if you solved the task (and fix all errors if any).
     - Run `npm run lint` if you don't see the diff in browser and fix code style errors.
     - Run `npm start` if reference is empty in browser diff.
-1. Commit and push your changes
-    - Run `git add .` to add changes to the next commit
-    - Run `git commit -m "message about changes"` to commit changes
-    - Run `git push origin develop` to push your changes to the GitHub
-    - Run `npm run publish` to deploy changes to GitHub pages
-1. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
-1. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description
+11. Commit and push your changes.
+    - Run `git add .` to prepare changes for the next commit.
+    - Run `git commit -m 'Solution'` to commit changes.
+    - Run `git push origin develop` to push your changes to the GitHub.
+    - Run `npm run publish` to deploy changes to GitHub pages (use Git Bash when working on Windows). 
+12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
+13. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description.
 
-> To update you PR repeat steps 8-12
+> To update you PR repeat steps 9-11
 
 ## Linux users
 > If you use _linux_ please make sure you adjusted writing permissions to let 
