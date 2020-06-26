@@ -44,5 +44,5 @@ scripts work without `sudo`. Correct permissions means you don't see errors like
 - `npm test` runs linter and tests
   - `npm run lint` runs linter (code style check)
   - `npm run css:test` runs pixel perfect tests
-- `npm run publish` publishes the page and test report to `gh-pages` 
+- `npm run deploy` publishes the page and test report to `gh-pages` 
 
