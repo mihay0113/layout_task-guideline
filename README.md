@@ -39,7 +39,7 @@ scripts work without `sudo`. Correct permissions means you don't see errors like
 
 ## NPM commands
 - `npm install` installs the project dependencies and runs `postinstall`
-  - `npm run css:reference` create reference files for pixel perfect and tests 
+  - which create reference files for pixel perfect and tests 
 - `npm start` runs the server required for development and tests
 - `npm test` runs linter and tests
   - `npm run lint` runs linter (code style check)
