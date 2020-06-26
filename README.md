@@ -26,7 +26,7 @@
     - Run `git add .` to prepare changes for the next commit.
     - Run `git commit -m 'Solution'` to commit changes.
     - Run `git push origin develop` to push your changes to the GitHub.
-    - Run `npm run publish` to deploy changes to GitHub pages (use Git Bash when working on Windows). 
+    - Run `npm run deploy` to deploy changes to GitHub pages (use Git Bash when working on Windows). 
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
 13. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description.
 
