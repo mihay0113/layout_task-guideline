@@ -29,6 +29,7 @@
     - Run `npm run deploy` to deploy changes to GitHub pages (use Git Bash when working on Windows). 
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
 13. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description.
+14. Check your work using checklist (look for it in the root directory of the project) before submitting it for review.
 
 > To update you PR repeat steps 9-11
 
