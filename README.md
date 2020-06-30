@@ -16,7 +16,7 @@
 4. Run `npm install` (or just `npm i`).
 5. Run `npm start` to check if it works.
 6. Open one more terminal window for the next steps
-7. Create develop branch `git checkout -b develop`
+7. Create `develop` branch `git checkout -b develop`
 8. Replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
 9. Write you code in `index.html`, `style.css` inside `src` folder
 10. Run `npm test` to check if you solved the task (and fix all errors if any).
@@ -24,7 +24,7 @@
     - Run `npm start` if reference is empty in browser diff.
 11. Commit and push your changes.
     - Run `git add .` to prepare changes for the next commit.
-    - Run `git commit -m 'Solution'` to commit changes.
+    - Run `git commit -m 'write a short description of the changes you made'` to commit changes.
     - Run `git push origin develop` to push your changes to the GitHub.
     - Run `npm run deploy` to deploy changes to GitHub pages (use Git Bash when working on Windows). 
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
@@ -43,6 +43,6 @@ scripts work without `sudo`. Correct permissions means you don't see errors like
 - `npm start` runs the server required for development and tests
 - `npm test` runs linter and tests
   - `npm run lint` runs linter (code style check)
-  - `npm run css:test` runs pixel perfect tests
+  - `npm run test:only` runs pixel perfect tests
 - `npm run deploy` publishes the page and test report to `gh-pages` 
 
