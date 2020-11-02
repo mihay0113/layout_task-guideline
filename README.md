@@ -23,8 +23,8 @@
     - Run `npm run lint` if you don't see the diff in browser and fix code style errors.
     - Run `npm start` if reference is empty in browser diff.
 11. Commit and push your changes.
-    - Run `git add .` to prepare changes for the next commit.
-    - Run `git commit -m "write a short description of the changes you made"` to commit changes.
+    - Run `git commit -am "write a short description of the changes you made"` to commit changes.
+        - If you created new files additionally run `git add path/to/file1 path/to/file2`.
     - Run `git push origin develop` to push your changes to the GitHub.
     - Run `npm run deploy` to deploy changes to GitHub pages (use Git Bash when working on Windows). 
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
