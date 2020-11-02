@@ -6,7 +6,7 @@
 5. Run `npm start` to check if it works.
 6. Open one more terminal window for the next steps
 7. Create `develop` branch `git checkout -b develop`
-8. Replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
+8. Open code editor and replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
 9. Write you code in `index.html`, `style.css` inside `src` folder
 10. Run `npm test` to check if you solved the task (and fix all errors if any).
     - Run `npm run lint` if you don't see the diff in browser and fix code style errors.
@@ -44,4 +44,3 @@ scripts work without `sudo`. Correct permissions means you don't see errors like
 - [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
 - [Working with figma](./figma.md)
 - [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
-
