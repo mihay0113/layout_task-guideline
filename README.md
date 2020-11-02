@@ -1,15 +1,4 @@
 # Guideline how to implement solution for Layout tasks 
-
-## Video guides
-- [How to solve HTML tasks](https://youtu.be/haCRZ3gNjOs)
-- [How to use pixel perfect extension](https://youtu.be/zqRko57AurU)
-
-## Useful links
-- [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
-- [Working with figma](./figma.md)
-- [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
-
-## Instructions
 1. **Fork** the repo.
 2. **Clone** the forked one. (The project link should have your name but not `mate-academy`).
 3. Go to create folder by running `cd your-project-name`.
@@ -46,4 +35,13 @@ scripts work without `sudo`. Correct permissions means you don't see errors like
   - `npm run lint` runs linter (code style check)
   - `npm run test:only` runs pixel perfect tests
 - `npm run deploy` publishes the page and test report to `gh-pages` 
+
+## Video guides
+- [How to solve HTML tasks](https://youtu.be/haCRZ3gNjOs)
+- [How to use pixel perfect extension](https://youtu.be/zqRko57AurU)
+
+## Useful links
+- [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
+- [Working with figma](./figma.md)
+- [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 
