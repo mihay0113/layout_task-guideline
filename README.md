@@ -24,7 +24,7 @@
 > To update you PR repeat steps 9-11
 
 15. After updating your PR - click on re-request button at PR page IF YOU NEED ADDITIONAL REVIEW OF YOUR CODE.
-![Image of re-request button](https://user-images.githubusercontent.com/38065883/104470112-00c72680-55c2-11eb-849e-2dc57d2aabae.png)
+![Image of re-request button](https://user-images.githubusercontent.com/38065883/104471439-89929200-55c3-11eb-824a-596bfb8aa246.png)
 
 ## Linux users
 > If you use _linux_ please make sure you adjusted writing permissions to let 
