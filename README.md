@@ -17,7 +17,7 @@
 8. Open code editor and replace `<your_account>` with your Github username in the `DEMO LINK` and `TEST REPORT LINK` of `readme.md`
 9. Write you code in `index.html`, `style.css`, `main.js` inside `src` folder
 10. Run `npm run lint` to check the code style.
-  - Fix all the errors and run the command again
+    - Fix all the errors and run the command again
 11. To check if your solution matches all the expectations you can run `npm test`
     - If you see a failing test you can click on it and see the difference by choosing `REFERENCE` and `TEST` at the top
     - If you see an `ENGINE ERROR: net::ERR_CONNECTION_REFUSED at http://localhost:8080/index.html` it means you don't have a running server
