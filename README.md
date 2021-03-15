@@ -27,16 +27,30 @@
     - If test results are not opened in a browser, check if you fixed all the code style errors (`npm run lint`)
     - If you can't run tests for some weird reason just use a page screenshot from
       `backstop_data/bitmaps_reference/Entire_document.png` to ensure your page looks as expected. 
-12. Commit and push your changes.
+12. Save your changes.
+    - If you created new files run `git add path/to/new_file1 path/to/new_file2`.
     - Run `git commit -am "write a short description of the changes you made"` to commit changes.
-        - If you created new files additionally run `git add path/to/file1 path/to/file2`.
-    - Run `git push origin develop` to push your changes to the GitHub.
-    - Run `npm run deploy` to deploy changes to GitHub pages (use Git Bash when working on Windows).
-        - project should be running at localhost:8080 during this step(`npm start`).
-13. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
-14. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description.
-15. Check your work using checklist (look for it in the root directory of the project) before submitting it for review.
-16. To update you PR repeat steps 9-12 (no need to create the PR one more time).
+    - If you see an error `fatal: unable to auto detect email address`, it means you forgot to configure you GIT name and email
+        - See the commands above the error message and run them one by one with your email and name
+13. Send your code to Github by running `git push origin develop`
+    - If you see permissions error (Access denied or refused), often it means you cloned `mate-academy` repo instead of the forked one from your account.
+        - Run `git remote show origin` to see the links
+        - If links contain with `mate-academy` you should replace them with correct ones
+        - Remove remote repo by running `git remote remove origin`
+        - Check if it was removed by running `git remote` (there should not be any item in the list)
+        - Add a correct server `git remote add origin the-link-to-clone-the-repo`
+        - Now it should work
+14. Run `npm run deploy` to publish your site to GitHub pages.
+    - Open `Setting` tab o your repo on Github and scroll down to `Github pages` section
+    - There should be a link to your public page (the same as `DEMO LINK` in your `readme.md`)
+    - Wait until it becomes green (may take 1-2 minutes)
+    - Open the page and check if you see the updated page
+    - If the page is not updated yet, just add `?any-random-text` after the URL
+      and press `Enter` to reload the page discarding cached data (if any)
+15. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
+16. Copy `DEMO LINK` and `TEST REPORT LINK` from `readme.md` to the PR description.
+17. Check your work using checklist (look for it in the root directory of the project) before submitting it for review.
+18. To update you PR repeat steps 9-14 (no need to create the PR one more time).
 
 > If you need an ADDITIONAL CODE REVIEW, click on re-request button at the PR page.
 ![Image of re-request button](https://user-images.githubusercontent.com/38065883/104471439-89929200-55c3-11eb-824a-596bfb8aa246.png)
