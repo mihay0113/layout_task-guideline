@@ -55,11 +55,9 @@ scripts work without `sudo`. Correct permissions mean you don't see errors like
   - `npm run test:only` runs pixel perfect tests
 - `npm run deploy` publishes the page and test report to `gh-pages` 
 
-## Video guides
-- [How to solve HTML tasks](https://youtu.be/haCRZ3gNjOs)
-- [How to use pixel perfect extension](https://youtu.be/zqRko57AurU)
-
 ## Useful links
+- [NPM and GIT commands](https://mate-academy.github.io/fe-program/css/useful-commands)
 - [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
 - [Working with figma](./figma.md)
 - [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
+- [How to use pixel perfect extension](https://youtu.be/zqRko57AurU)
