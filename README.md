@@ -14,18 +14,20 @@
 > Learn [Useful GIT and NPM commands](https://mate-academy.github.io/fe-program/css/useful-commands)
 
 1. Open the project on Github and **Fork** the repo.
-   - <details>
-       <summary>Show the screenshot</summary>
-     
-       - Before the fork ![How to fork the repo](./images/fork-the-repo.png)
-       - After the fork ![After the repo fork](./images/after-the-repo-fork.png)
-     </details>
-   - <details>
-       <summary>If you want to delete the repo</summary>
-   
-       - Open project settings ![Open project settings](./images/open-project-settings.png)
-       - Delete the repo ![Delete the repo](./images/delete-the-repo.png)
-     </details>
+   <details>
+     <summary>Show the screenshot</summary>
+  
+     - Before the fork ![How to fork the repo](./images/fork-the-repo.png)
+     - After the fork ![After the repo fork](./images/after-the-repo-fork.png)
+   </details>
+
+   <details>
+     <summary>If you want to delete the repo</summary>
+
+     - Open project settings ![Open project settings](./images/open-project-settings.png)
+     - Delete the repo ![Delete the repo](./images/delete-the-repo.png)
+   </details>
+
 2. **Clone** the forked repo `git clone the-link-from-github`
    <details>
      <summary>Show the details</summary>
