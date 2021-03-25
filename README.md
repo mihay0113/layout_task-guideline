@@ -10,13 +10,15 @@
   - Create a repo following [this workflow](./github-workflow.md)
 </details>
 
-## Follow this steps:
 > Learn [Useful GIT and NPM commands](https://mate-academy.github.io/fe-program/css/useful-commands)
 
-**IMPORTANT !!!!!!!** 
+**IMPORTANT !!!!!!!**
+
 > Do NOT place your projects folder on desktop (To avoid permissions issues).
 > It is better to put it into `D:\projects` or `C:\Users\YourName\projects`.
 > But there should not be spaces in the path like this `C:\Users\Your Name\projects`.
+
+## Follow this steps:
 
 1. Open the project on Github and **Fork** the repo.
    <details>
